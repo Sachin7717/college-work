@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JavaScript Functions Demo</title>
+</head>
+<body>
+
+<h2>JavaScript Functions Demo</h2>
+
+<p>Open the console to see the output.</p>
+
+<script>
+  // Function Declaration
+  function greet(name) {
+    console.log("Hello, " + name + "!");
+  }
+
+  // Function Call
+  greet("Sachin");
+
+  // Function Expression
+  let square = function(num) {
+    return num * num;
+  };
+
+  // Function Call
+  console.log("Square of 5 is: " + square(5));
+
+  // Arrow Function
+  let cube = (num) => {
+    return num * num * num;
+  };
+
+  // Function Call
+  console.log("Cube of 3 is: " + cube(3));
+</script>
+
+</body>
+</html>
